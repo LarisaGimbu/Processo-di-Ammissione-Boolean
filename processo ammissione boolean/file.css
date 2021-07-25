@@ -1,0 +1,98 @@
+body{
+  background-image: url('background.jpg');
+}
+
+.container{
+  width: 2500px;
+  margin: auto;
+  background-color: #00000082;
+  padding: 200px 250px 20px;
+  border-radius: 50px;
+  margin-top: 100px;
+}
+
+img{
+   margin: 0% 35%;
+}
+
+.titolo{
+  font-size: 85px;
+  font-family: 'Lato', sans-serif;
+  color: #00d600;
+  margin: 0% 27% 1%;
+}
+
+button{
+  font-size: 30px;
+  padding: 10px;
+  margin: 5px;
+}
+
+button:hover{
+  text-decoration: underline;
+  background-color: lightgrey;
+}
+
+.pulsanti{
+  background-color: #00d600;
+  padding: 1% 35%;
+}
+
+input[type="checkbox"]{
+  width: 30px;
+  height: 35px;
+  margin: 0 25px 0 0;
+}
+
+div > h2 {
+  display: inline-block;
+  font-size: 70px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.location{
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  color: lightgrey;
+}
+
+.location:before{
+  content:"\21A6";
+}
+
+.orangecharge{
+  background-color: #ffbe47;
+  width: 900px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+.greencharge{
+  background-color: #00d600;
+  width: 1300px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+.redcharge{
+  background-color: #ff4f4f;
+  width: 400px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+hr{
+  margin-top: 300px;
+  background-color: lightgrey;
+}
+
+.firma{
+  color: lightgrey;
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+  margin: 1% 45%;
+}
